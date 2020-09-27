@@ -1,0 +1,122 @@
+DmsBasePage:
+  主框架: xpath,//*[@id="panelDMS"]/iframe
+  流程审批: css,.panel:nth-child(1) .panel-title
+  文件清单: css,.panel:nth-child(2) .first-nav-title > span
+  新增修订: css,.panel:nth-child(3) .first-nav-title
+  文件发放: css,.panel:nth-child(4) > .panel-header .first-nav-title
+  文件签收: css,.panel:nth-child(5) .first-nav-title > span
+  文件回收: css,.panel:nth-child(6) .first-nav-title > span
+  文件复审: css,.panel:nth-child(7) .panel-title
+  借阅续借: css,.panel:nth-child(8) .first-nav-title
+  系统报表: css,.panel:nth-child(10) .first-nav-title
+
+
+流程审批:
+  我的待办:
+    我的待办按钮: xpath=//div[2]/ul/li/a/span
+
+  我的已办:
+    我的已办按钮: xpath=//li[2]/a
+
+  我的归档:
+    我的归档按钮: xpath=//li[3]/a/span/span
+
+  我的申请:
+    我的申请按钮: xpath=//li[4]/a/span
+
+  我的草稿:
+    我的草稿按钮: xpath=//li[5]/a/span
+
+  我的打印:
+    我的打印按钮: xpath=//li[6]/a/span
+
+
+文件清单:
+  待生效文件:
+    待生效文件按钮: xpath=//div[2]/div[2]/ul/li/a/span
+
+  已生效文件:
+    已生效文件按钮: xpath=//div[2]/div[2]/ul/li[2]/a/span
+
+  待修改文件:
+    待修改文件按钮: xpath=//div[2]/div[2]/ul/li[3]/a/span
+
+  生效记录文件:
+    生效记录文件按钮: xpath=//div[2]/div[2]/ul/li[4]/a/span
+
+  已作废文件:
+    已作废文件按钮: xpath=//div[2]/div[2]/ul/li[5]/a/span
+
+  过程中文件:
+    过程中文件按钮: xpath=//div[2]/div[2]/ul/li[6]/a/span
+
+  旧版文件:
+    旧版文件按钮: xpath=//div[2]/ul/li[7]/a/span
+
+  待作废文件:
+    待作废文件按钮: xpath=//div[2]/ul/li[8]/a/span
+
+
+新增修订:
+  文件变更申请:
+    文件变更申请按钮: xpath=//div[3]/div[2]/ul/li/a/span
+
+  文件新增:
+    文件新增按钮: xpath,//div[3]/div[2]/ul/li[2]/a/span
+
+  文件修订:
+    文件修订按钮: xpath=//div[3]/div[2]/ul/li[3]/a
+
+
+文件发放:
+  待分发文件:
+    待分发文件按钮: xpath=//div[4]/div[2]/ul/li/a/span
+
+  已分发文件:
+    已分发文件按钮: xpath=//div[4]/div[2]/ul/li[2]/a/span
+
+
+文件签收:
+  待签收文件:
+    待签收文件按钮: xpath=//div[5]/div[2]/ul/li[3]/a/span
+
+  已签收文件:
+      已签收文件按钮: xpath=//div[5]/div[2]/ul/li[4]/a/span
+
+
+文件回收:
+  待回收文件:
+    待回收文件按钮: xpath=//div[6]/div[2]/ul/li/a/span
+
+  已回收文件:
+    已回收文件按钮: xpath=//div[6]/div[2]/ul/li[2]/a/span
+
+
+文件复审:
+  待复审文件:
+    待复审文件按钮: xpath=//div[7]/div[2]/ul/li/a/span
+
+  已过期文件:
+    已过期文件按钮: xpath=//div[7]/div[2]/ul/li[2]/a/span
+
+
+借阅续借:
+  借阅申请:
+    借阅申请按钮: xpath=//div[8]/div[2]/ul/li/a/span
+
+  我的借阅:
+    我的借阅按钮: xpath=//div[8]/div[2]/ul/li[2]/a/span
+
+
+系统报表:
+  文件编号清单:
+    文件编号清单按钮: xpath=//div[10]/div[2]/ul/li/a/span
+
+  借阅记录清单:
+    借阅记录清单按钮: xpath=//div[10]/div[2]/ul/li[2]/a
+
+  审计信息查询:
+    审计信息查询按钮: xpath=//div[10]/div[2]/ul/li[3]/a
+
+  部门纸质文件:
+    部门纸质文件按钮: xpath=//div[10]/div[2]/ul/li[4]/a/span

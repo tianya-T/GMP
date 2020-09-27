@@ -1,0 +1,17 @@
+{
+  "文件管理": {
+    "新增&修订": {
+      "文件新增": "gmp_dms.document_preparation.cases.test_case.TestCase"
+    }
+  },
+  "记录管理": {
+    "流程审批": {
+      "我的待办": "gmp_rms.process_handling.cases.test_to_do_items.TestToDoItems"
+
+    },
+    "记录申请": {
+      "记录申请": "gmp_rms.record_application.cases.test_record_application.TestToDoItems"
+    }
+  }
+}
+

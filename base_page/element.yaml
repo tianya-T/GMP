@@ -1,0 +1,32 @@
+#登录和首页后各个模块的定位方法以及元素。
+
+USERNAME_TEXT: id,account     #账号文本框
+PASSWD_TEXT: id,password     #密码文本框
+LOGIN_BUTTON: id,btnSubmit     #登录按钮
+
+DOC: id,panelDoc_selectorText     #文档
+MY_: id,panelMy_selectorText     #我的工作站
+NEWWORKFLOW: id,panelNewWorkflow_selectorText     #工作流
+ADMIN_: id,panelAdmin_selectorText    #系统管理
+DMS: id,panelDMS_selectorText     #文件管理
+AMS: id,panelAMS_selectorText     #档案管理
+TMS: id,panelTMS_selectorText     #培训管理
+RMS: id,panelRMS_selectorText     #记录管理
+
+主框架: xpath,//*[@id="panelRMS"]/iframe
+警告: css=.gmp-messager
+
+电子签名:
+  电子签名框架: xpath,/html/body/div[3]/div[1]/div[2]/div/div/div[4]/iframe
+  实例号: css,#Incident
+  姓名: css,#UserName
+  用户名: css,#Account
+  密码框: xpath=//p[4]/input
+  确认按钮: xpath=//*[contains(@id,"sn-success-")]/span/span
+  取消按钮: xpath=//a[2]/span/span
+  签名含义: css,#SignType > option
+  密码错误提示弹窗: xpath,/html/body/div[9]/span
+确定弹窗:
+  确定弹窗框架: xpath,//*[@id="181031135111"]/iframe
+  确定: xpath,/html/body/div[5]/div[2]/div[4]/a[1]/span/span
+  取消: xpath,/html/body/div[5]/div[2]/div[4]/a[2]/span/span
