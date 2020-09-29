@@ -32,7 +32,7 @@ class Runner:
         case_list = GetCaseList().get_case_list()  # 获取含有测试用例的列表
         suite = unittest.TestSuite()
         suite.addTests(unittest.TestLoader().loadTestsFromNames(case_list))  # 加载测试用例
-        parent_path = CreateDir().create_reports_dir()  # 已运行当天日期为名创建文件夹，若存在则不再创建
+        parent_path = CreateDir().create_reports_dir()  # 以运行当天日期为名创建文件夹，若存在则不再创建
 
         test_renner = TestRunner(suite=suite,
                                  filename=self.p_time,
