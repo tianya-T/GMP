@@ -234,7 +234,7 @@ class BoxDriver:
     def switch_to_alert(self, verdict):
         """
         处理alert框
-        :param verdict:'y'确认删除,'n'取消
+        :param verdict:'yes'确认删除,'no'取消
         :return:
         """
         if verdict == 'yes':
@@ -249,11 +249,11 @@ class BoxDriver:
         :return:
         """
         self.sleep(1)
-        self._base_driver.switch_to.alert().send_keys(text)
+        self._base_driver.switch_to.alert.send_keys(text)
 
     def get_alert_text(self):
         self.sleep(1)
-        return self._base_driver.switch_to.alert().text
+        return self._base_driver.switch_to.alert.text
 
     def switch_to_window(self, index):
         """
